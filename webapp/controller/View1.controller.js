@@ -6,6 +6,9 @@ sap.ui.define([
 	return Controller.extend("debrecen.git_test.controller.View1", {
 		onInit: function () {
 			sap.m.MessageToast.show("Hello World");
+		},
+		
+		onExit: function () {
 		}
 	});
 });
